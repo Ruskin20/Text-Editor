@@ -20,6 +20,7 @@ module.exports = () => {
 		plugins: [
 			new HtmlWebpackPlugin({
 				template: './index.html',
+        title: 'Contact Cards',
 			}),
 			new WebpackPwaManifest({
 				name: 'JATE',
@@ -42,7 +43,7 @@ module.exports = () => {
 			}),
 			new InjectManifest({
 				swSrc: './src-sw.js',
-				swDest: 'service-worker.js',
+				swDest: 'src-sw.js',
 			}),
 		],
 
