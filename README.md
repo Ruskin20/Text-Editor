@@ -16,7 +16,7 @@ This application is a text/code editor that functions on a single page, follows 
 ## Usage
 
 You could find the deployed app on the following link:
-[PWA Text Editor || Heroku App]()
+[PWA Text Editor || Heroku App](https://pwa-text--editor-aff5e33049ce.herokuapp.com/)
 
 ## Installation
 
